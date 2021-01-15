@@ -1,0 +1,50 @@
+<div>
+  
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-3">
+                  
+        </div>
+        <div class="col-md-6">
+          
+              <div class="Container box">
+                  
+                  <h3 style="text-align: center;" class="mb-3">Simple Calculator</h3>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <input  [(ngModel)] ="n1"  type="number" placeholder="number1" required>
+                    </div>
+                    <div class="col-md-6">
+                      <input [(ngModel)] = "n2" type="number" placeholder="number2" required>
+                    </div>
+                  </div>
+  
+                  <input id="result" [(ngModel)] = "res" type="text" placeholder="Result" value="{{res}}" required>
+                  
+                  <div class="row center">
+                    <div class="col-md-3 ">
+                      <button id="add" (click)="addition()" class="btn btn-primary w60"> + </button>
+                    </div>
+                    <div class="col-md-3">
+                      <button id="sub" (click)="subtraction()" class="btn btn-primary w60"> - </button>
+                    </div>
+                    <div class="col-md-3">
+                      <button id="mul" (click)="multiplication()" class="btn btn-primary w60"> * </button>
+                    </div>
+                    <div class="col-md-3">
+                      <button id="div" (click)="division()" class="btn btn-primary w60"> / </button>
+                    </div>
+                    
+                  </div>
+  
+              </div>
+          
+        </div>
+        <div class="col-md-3">
+          
+        </div>
+      </div>
+  </div>
+  
+  
+  </div>
