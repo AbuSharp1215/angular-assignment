@@ -57,7 +57,7 @@ export class AddUserComponent implements OnInit {
 
     //console.log( _.sortBy(this.data, ['phone']))
 
-    //this.getData();
+    
   }
 
   sortbyEmail(){
